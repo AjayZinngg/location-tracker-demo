@@ -1,0 +1,74 @@
+// function getJSONMarkers() {
+//           const markers = [
+//             {
+//               name:  "A",
+//               location: [28.644800, 77.216921]
+//             },
+//             {
+//               name: "B",
+//               location: [28.644801, 77.259052]
+//             },
+//             {
+//               name: "C",
+//               location: [28.644802, 77.157507]
+//             },
+//             {
+//               name:  "D",
+//               location: [28.644799, 77.287478]
+//             },
+
+//           ];
+//           return markers;
+//         }
+
+function getJSONMarkers(){
+
+	const markers = [
+    {
+        "id": "11",
+        "user_name": "pk",
+        "agent_name": "Vikas",
+        "city": "Delhi",
+        "agent_id": "11",
+        "lati": "28.589846",
+        "longi": "77.3073245",
+        "date": "2017-11-27 17:06:05",
+        "active_pickup": "112"
+    },
+    {
+        "id": "15",
+        "user_name": "pd",
+        "agent_name": "Pradeep",
+        "city": "Delhi",
+        "agent_id": "15",
+        "lati": "28.5774016",
+        "longi": "77.2784707",
+        "date": "2017-11-27 16:06:05",
+        "active_pickup": "105"
+    },
+    {
+        "id": "16",
+        "user_name": "ab",
+        "agent_name": "Insar Khan",
+        "city": "Delhi",
+        "agent_id": null,
+        "lati": null,
+        "longi": null,
+        "date": null,
+        "active_pickup": null
+    },
+    {
+        "id": "17",
+        "user_name": "kc",
+        "agent_name": "umesh",
+        "city": "Delhi",
+        "agent_id": "17",
+        "lati": "28.5724515",
+        "longi": "77.2276972",
+        "date": "2017-11-27 17:06:05",
+        "active_pickup": null
+    }
+];
+
+	return markers;
+}
