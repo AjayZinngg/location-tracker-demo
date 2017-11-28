@@ -23,7 +23,7 @@ function readyFn(){
 function gethit(){
   var city ="";
     $.ajax({
-        url: "http://devapi.stashfin.com/Fos/services",
+        url: "<enter location>",
         type:'POST',
         crossDomain:true,
         cache: false,
